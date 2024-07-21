@@ -3,11 +3,11 @@
     {"name":"Background","order":25,"path":"folders/Background.yy",},
     {"name":"Bird","order":23,"path":"folders/Bird.yy",},
     {"name":"Collisions","order":26,"path":"folders/Collisions.yy",},
+    {"name":"Fonts","order":28,"path":"folders/Fonts.yy",},
     {"name":"Pièces","order":10,"path":"folders/Pièces.yy",},
     {"name":"Pipes","order":24,"path":"folders/Pipes.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"fnt_score","order":27,"path":"fonts/fnt_score/fnt_score.yy",},
     {"name":"obj_bird","order":1,"path":"objects/obj_bird/obj_bird.yy",},
     {"name":"obj_pipe_generator","order":5,"path":"objects/obj_pipe_generator/obj_pipe_generator.yy",},
     {"name":"obj_pipe","order":4,"path":"objects/obj_pipe/obj_pipe.yy",},

@@ -1,8 +1,15 @@
-var _magnitude = 32;
+//-- Position X = Taille de la piece + sprite
 var _xx = room_width + sprite_get_width(spr_pipe_blue);
-var _yy = room_height / 2 + random_range(-_magnitude, _magnitude);
 
+//-- Amplitude en Y
+magnitude = 32 + (score / 2);
+//-- Position Y = millieu Y + random amplitude
+var _yy = room_height / 2 + random_range(-magnitude, magnitude);
+
+//-- Génération de tuyaux
 if ( state != GAME_STATES.START ) {
 	instance_create_layer(_xx, _yy, "i_main", obj_pipe);
 }
-alarm[0] = room_speed * 2;
+//-- Répétition de l'alarm
+pipe_timer = start_timer - score;
+alarm[0] = pipe_timer;

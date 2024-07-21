@@ -6,12 +6,14 @@ state = GAME_STATES.START;
 
 // Fall gravity
 fall_speed = 0;
-fall_gravity = 0.3;
 max_fall_speed = 6;
 
-// Jump
-jump_speed = -5;
+start_fall_gravity = 0.3;
+fall_gravity = start_fall_gravity;
 
+// Jump
+start_jump_speed = -5;
+jump_speed = start_jump_speed;
 
 //Score
 score = 0;

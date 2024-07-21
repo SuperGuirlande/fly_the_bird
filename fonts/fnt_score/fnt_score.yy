@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"fnt_score",
   "parent":{
-    "name":"Nouveau Fly the Bird",
-    "path":"Nouveau Fly the Bird.yyp",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

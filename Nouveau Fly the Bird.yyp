@@ -13,6 +13,7 @@
     {"$GMFolder":"","%Name":"Background","folderPath":"folders/Background.yy","name":"Background","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bird","folderPath":"folders/Bird.yy","name":"Bird","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collisions","folderPath":"folders/Collisions.yy","name":"Collisions","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pièces","folderPath":"folders/Pièces.yy","name":"Pièces","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pipes","folderPath":"folders/Pipes.yy","name":"Pipes","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
