@@ -42,6 +42,15 @@ if ( state == GAME_STATES.PLAY ) {
 	//****** GAME OVER
 	if ( place_meeting(x, y, obj_collision) ) or ( place_meeting(x, y, obj_pipe) ) {
 		state = GAME_STATES.GAME_OVER;
+		
+		//** Check si score est superieur au best score
+		if ( score > best_score ) {
+			best_score = score;
+			
+			ini_open(file_name);
+			ini_write_real("Best", "Score", best_score);
+			ini_close();
+		}
 	}
 }
 

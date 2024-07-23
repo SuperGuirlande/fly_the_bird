@@ -17,3 +17,12 @@ jump_speed = start_jump_speed;
 
 //Score
 score = 0;
+
+//Nom du fichier de sauvegarde
+//Localisation du fichier : Local app data
+file_name = "best_score.ini";
+
+//Récupération du meilleur score ( 0 par défaut )
+ini_open(file_name);
+best_score = ini_read_real("Best", "Score", 0);
+ini_close();

@@ -14,6 +14,10 @@ if ( state == GAME_STATES.START ) {
 	
 	draw_text(_xx, _yy, _txt);
 	
+	_yy += string_height(_txt);
+	_txt = "Meilleur Score :" + string(best_score);
+	draw_text(_xx, _yy, _txt);
+	
 //-- Dessin du score - Etat PLAY
 } else if ( state == GAME_STATES.PLAY ) {
 	var _yy = 64;
@@ -21,12 +25,17 @@ if ( state == GAME_STATES.START ) {
 
 //-- Dessin du score + Menu Game Over
 } else {
+	//-- Position haute pour le score
 	var _yy = 64;
 	draw_text(_xx, _yy, score);
 	
+	//-- Milieu de l'écran pour le game over
 	var _yy = display_get_gui_height()/2;
 	var _txt = "GAME OVER\nAppuyez sur [SPACE] pour rejouer";
-	
 	draw_text(_xx, _yy, _txt);
 	
+	//-- Dessin du best score
+	_yy += string_height(_txt);
+	_txt = "Meilleur Score :" + string(best_score);
+	draw_text(_xx, _yy, _txt);
 }
