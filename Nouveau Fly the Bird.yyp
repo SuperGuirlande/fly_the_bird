@@ -17,7 +17,17 @@
     {"$GMFolder":"","%Name":"Pièces","folderPath":"folders/Pièces.yy","name":"Pièces","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pipes","folderPath":"folders/Pipes.yy","name":"Pipes","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"banner.bmp","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"banner.bmp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"banner.xcf","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"banner.xcf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"icon.ico","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"icon.ico","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"icon.xcf","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"icon.xcf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"left.bmp","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"left.bmp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"left.xcf","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"left.xcf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"splash_screen.png","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"splash_screen.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"splash_screen.xcf","CopyToMask":-1,"filePath":"datafiles/Exporter Fly the Bird","name":"splash_screen.xcf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Nouveau Fly the Bird.exe","CopyToMask":-1,"filePath":"datafiles","name":"Nouveau Fly the Bird.exe","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
